@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @kai_3r
 - 👀 I’m interested in arts, mathematics and computer science; more prescisely in projects combining UI/UX, PROGRAMMING PROEFICIENCY AND ELECTRONICS. 
-- 🌱 I’m currently learning C, HTML/CSS
-- 💞️ I’m looking to collaborate on PROJECTS IN C, HTML/CSS  
+- 🌱 I’m currently learning C, HTML/CSS, python, c++
+- 💞️ I’m looking to collaborate on PROJECTS IN C, HTML/CSS, python, c++  
 - 📫 How to reach me TELEGRAM @kaier0000
 
 <!---
