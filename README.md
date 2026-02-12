@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @kai_3r
 - 👀 I’m interested in arts, mathematics and computer science; more prescisely in projects combining UI/UX, PROGRAMMING PROEFICIENCY AND ELECTRONICS. 
-- 🌱 I’m currently learning C, HTML/CSS javascript, python, C++, C#, lisp, java, swift, kotlin, sql
-- 💞️ I’m looking to collaborate on PROJECTS involing C, HTML/CSS, python, c++, C#, swift/kotlin  
-- 📫 How to reach me TELEGRAM @kaier0000, Email hbankwe@gmail.com
+- 🌱 I’m currently learning C, react, python, sql querying, fastAPI, AWS, and Docker. 
+- 💞️ I’m looking to contribute on PROJECTS involing C, react, python.
+- 📫 How to reach me TELEGRAM @kaier0000, Email hbankwe@gmail.com.
