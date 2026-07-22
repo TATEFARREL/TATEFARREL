@@ -8,11 +8,14 @@
 
 <h2>About Me</h2>
 
-<p>I am a Software Engineer bridging the gap between distributed backend systems, AI, and embedded hardware. Accustomed to tackling complex architectural challenges, I build reliable applications grounded in <strong>Python, C-based languages, SQL, and DevOps practices</strong>. As a lifelong learner, I am passionate about writing clean code and understanding exactly how and where complex systems fail.</p>
+<p>I am a Software Engineer bridging the gap between distributed backend systems, AI, and embedded hardware. Accustomed to tackling complex architectural challenges, I build reliable applications grounded in <strong>Python, C-based languages, SQL, and DevOps practices</strong>. As a lifelong learner, I am passionate about writing clean code and understanding exactly how and where complex systems fail with the aim to build more resilient softwares.</p>
 
 <ul>
   <li>🌍 <strong>Based in:</strong> Gomel, Belarus</li>
-  <li>🤝 <strong>Open to:</strong> Collaborating on impactful projects and open-source tech.</li>
+  <li>🚀 <strong>Specializing in:</strong> Distributed backend systems and cloud-ready architectures.</li>
+  <li>💡 <strong>Passionate about:</strong> AI integration, mechatronics, and software security.</li>
+  <li>📈 <strong>Building:</strong> Scalable APIs, containerized applications, and cyber-physical systems (AI-powered mechatronics).</li>
+  <li>🤝 <strong>Open to:</strong> Collaborating on impactful projects.</li>
 </ul>
 
 <h2>Connect with Me</h2>
@@ -41,7 +44,7 @@
     <li>♟️ <strong>Magic Chess:</strong> Zero-sensor mechatronic chess system with a 60 FPS vision pipeline and sub-50 ms asynchronous logic.</li>
     <li>🏫 <a href="https://lesmarinettes.org"><strong>Les Marinettes:</strong></a> Full-stack platform for school marketing and administration workflows.</li>
     <li>💼 <strong>AFIDIpro:</strong> Modernized job-seeking platform migrated to a highly secure Python/FastAPI architecture.</li>
-    <li>🛡️ <strong>Security Audits:</strong> Independent vulnerability research for national-level enterprise platforms (FNE, MTNOBC).</li>
+    <li>🛡️ <strong>Application Audits:</strong> Independent vulnerability research on national-level and enterprise platforms.</li>
   </ul>
 </td>
 </tr>
