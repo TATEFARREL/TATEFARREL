@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1200" width="840" height="1200">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="skinLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C68642"/>
+      <stop offset="50%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#8B4513"/>
+    </linearGradient>
+    <linearGradient id="skinShadowLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A0522D"/>
+      <stop offset="100%" stop-color="#6B3410"/>
+    </linearGradient>
+    <radialGradient id="eyeGradLight" cx="50%" cy="50%" r="50%">
+      <stop offset="40%" stop-color="#3E2723"/>
+      <stop offset="90%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#8D6E63"/>
+    </radialGradient>
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAFA"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <linearGradient id="accentLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+
+    <!-- Monospace font for code aesthetic -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap');
+      .code { font-family: 'JetBrains Mono', 'Courier New', monospace; }
+      .title { font-family: 'JetBrains Mono', 'Courier New', monospace; font-weight: 800; }
+      .heading { font-family: 'JetBrains Mono', 'Courier New', monospace; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="1200" fill="url(#bgGradLight)" rx="12"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="840" height="6" fill="url(#accentLight)"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- PORTRAIT SECTION - Drawn in code       -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Portrait background circle -->
+  <circle cx="200" cy="200" r="140" fill="#E8E8E8" opacity="0.5"/>
+  <circle cx="200" cy="200" r="130" fill="#E0E0E0" opacity="0.3"/>
+
+  <!-- Neck -->
+  <path d="M 155 280 Q 155 340 145 380 L 255 380 Q 245 340 245 280 Z" fill="url(#skinShadowLight)"/>
+
+  <!-- Ears -->
+  <ellipse cx="125" cy="220" rx="16" ry="26" fill="url(#skinLight)"/>
+  <ellipse cx="275" cy="220" rx="16" ry="26" fill="url(#skinLight)"/>
+  <path d="M 121 212 Q 117 220 121 228" stroke="#8B4513" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 279 212 Q 283 220 279 228" stroke="#8B4513" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Face Shape -->
+  <path d="M 140 165 
+           C 140 115, 260 115, 260 165
+           L 260 235
+           C 260 285, 230 320, 200 320
+           C 170 320, 140 285, 140 235
+           Z" fill="url(#skinLight)"/>
+
+  <!-- Jaw Shadow -->
+  <path d="M 148 275 Q 200 320 252 275 Q 225 310 200 310 Q 175 310 148 275" fill="#8B4513" opacity="0.25"/>
+
+  <!-- Hair -->
+  <path d="M 135 175 
+           C 126 135, 148 95, 200 95
+           C 252 95, 274 135, 265 175
+           C 265 150, 252 108, 200 108
+           C 148 108, 135 150, 135 175 Z" fill="#1A1A1A"/>
+  <!-- Hair curls -->
+  <circle cx="155" cy="108" r="10" fill="#1A1A1A"/>
+  <circle cx="178" cy="100" r="12" fill="#1A1A1A"/>
+  <circle cx="205" cy="98" r="12" fill="#1A1A1A"/>
+  <circle cx="230" cy="102" r="11" fill="#1A1A1A"/>
+  <circle cx="250" cy="115" r="9" fill="#1A1A1A"/>
+  <circle cx="142" cy="128" r="8" fill="#1A1A1A"/>
+  <circle cx="258" cy="130" r="8" fill="#1A1A1A"/>
+  <circle cx="138" cy="150" r="7" fill="#1A1A1A"/>
+  <circle cx="262" cy="152" r="7" fill="#1A1A1A"/>
+  <circle cx="136" cy="172" r="6" fill="#1A1A1A"/>
+  <circle cx="264" cy="174" r="6" fill="#1A1A1A"/>
+
+  <!-- Hairline -->
+  <path d="M 148 152 Q 200 135 252 152" stroke="#1A1A1A" stroke-width="2.5" fill="none"/>
+
+  <!-- Eyebrows -->
+  <path d="M 155 195 Q 172 187 188 195" stroke="#1A1A1A" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M 212 195 Q 228 187 245 195" stroke="#1A1A1A" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="172" cy="212" rx="14" ry="9" fill="#FFF"/>
+  <ellipse cx="228" cy="212" rx="14" ry="9" fill="#FFF"/>
+  <circle cx="172" cy="212" r="6" fill="url(#eyeGradLight)"/>
+  <circle cx="228" cy="212" r="6" fill="url(#eyeGradLight)"/>
+  <circle cx="174" cy="210" r="2" fill="#FFF"/>
+  <circle cx="230" cy="210" r="2" fill="#FFF"/>
+
+  <!-- Eye folds -->
+  <path d="M 154 206 Q 172 201 190 206" stroke="#8B4513" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M 210 206 Q 228 201 246 206" stroke="#8B4513" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- Nose -->
+  <path d="M 195 222 L 191 255 L 200 263 L 209 255 L 205 222" fill="#A0522D" opacity="0.35"/>
+  <path d="M 189 258 Q 200 270 211 258" stroke="#8B4513" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 193 252 Q 196 256 199 252" stroke="#8B4513" stroke-width="1.2" fill="none"/>
+  <path d="M 201 252 Q 204 256 207 252" stroke="#8B4513" stroke-width="1.2" fill="none"/>
+
+  <!-- Mouth -->
+  <path d="M 178 288 Q 200 296 222 288" stroke="#6B3410" stroke-width="1.8" fill="none"/>
+  <path d="M 181 290 Q 200 305 219 291" fill="#8B4513" opacity="0.4"/>
+  <path d="M 187 294 Q 200 299 213 294" stroke="#6B3410" stroke-width="0.8" fill="none" opacity="0.35"/>
+
+  <!-- Beard / Goatee -->
+  <path d="M 175 308 Q 200 332 225 308" stroke="#1A1A1A" stroke-width="1.5" fill="none" opacity="0.25"/>
+  <path d="M 188 316 Q 200 328 212 316" fill="#1A1A1A" opacity="0.35"/>
+  <ellipse cx="200" cy="324" rx="13" ry="7" fill="#1A1A1A" opacity="0.4"/>
+  <ellipse cx="148" cy="278" rx="7" ry="13" fill="#1A1A1A" opacity="0.12"/>
+  <ellipse cx="252" cy="278" rx="7" ry="13" fill="#1A1A1A" opacity="0.12"/>
+
+  <!-- Shirt -->
+  <path d="M 115 380 L 115 420 Q 155 405 200 412 Q 245 405 285 420 L 285 380 Q 245 365 200 375 Q 155 365 115 380 Z" fill="#1A1A1A"/>
+  <!-- Shirt collar -->
+  <path d="M 165 375 Q 200 390 235 375 L 242 385 Q 200 405 158 385 Z" fill="#2D2D2D"/>
+  <!-- Shirt logo (magenta triangles hint) -->
+  <path d="M 175 400 L 185 400 L 180 410 Z" fill="#E040FB" opacity="0.75"/>
+  <path d="M 190 400 L 200 400 L 195 410 Z" fill="#E040FB" opacity="0.75"/>
+  <path d="M 205 400 L 215 400 L 210 410 Z" fill="#E040FB" opacity="0.75"/>
+  <rect x="178" y="414" width="34" height="2.5" rx="1" fill="#E040FB" opacity="0.55"/>
+
+  <!-- Face highlight -->
+  <ellipse cx="158" cy="188" rx="18" ry="26" fill="#FFF" opacity="0.04"/>
+  <ellipse cx="242" cy="188" rx="18" ry="26" fill="#FFF" opacity="0.04"/>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- TEXT CONTENT SECTION                   -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <!-- Name -->
+  <text x="380" y="115" class="title" font-size="36" fill="#1A1A1A">Harold F.B. Tate</text>
+
+  <!-- Role with code styling -->
+  <rect x="380" y="128" width="385" height="28" fill="#F5F5F5" rx="4" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="390" y="147" class="code" font-size="14" fill="#667eea">&lt;Software_Engineer /&gt;</text>
+
+  <!-- Location badge -->
+  <rect x="380" y="168" width="160" height="24" fill="#FFF" rx="4" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="390" y="184" class="code" font-size="12" fill="#666">📍 Gomel, Belarus</text>
+
+  <!-- Divider line -->
+  <line x1="380" y1="210" x2="780" y2="210" stroke="#E0E0E0" stroke-width="1"/>
+
+  <!-- About Me Section -->
+  <text x="380" y="245" class="heading" font-size="18" fill="#1A1A1A">// About Me</text>
+
+  <text x="380" y="275" class="code" font-size="13" fill="#444">Bridging distributed backend systems,</text>
+  <text x="380" y="295" class="code" font-size="13" fill="#444">AI, and embedded hardware. Building</text>
+  <text x="380" y="315" class="code" font-size="13" fill="#444">reliable apps in Python, SQL &amp; DevOps.</text>
+  <text x="380" y="335" class="code" font-size="13" fill="#444">Passionate about clean code &amp; system</text>
+  <text x="380" y="355" class="code" font-size="13" fill="#444">resilience — understanding failure</text>
+  <text x="380" y="375" class="code" font-size="13" fill="#444">modes to build software that lasts.</text>
+
+  <!-- Focus Section -->
+  <text x="380" y="420" class="heading" font-size="18" fill="#1A1A1A">// Current Focus</text>
+
+  <text x="380" y="450" class="code" font-size="13" fill="#444">• Architecting cyber-physical systems</text>
+  <text x="380" y="470" class="code" font-size="13" fill="#444">  (Mechatronics + AI)</text>
+  <text x="380" y="490" class="code" font-size="13" fill="#444">• Designing scalable APIs &amp; microservices</text>
+  <text x="380" y="510" class="code" font-size="13" fill="#444">  with Python &amp; FastAPI</text>
+  <text x="380" y="530" class="code" font-size="13" fill="#444">• Integrating CV (YOLO, OpenCV) into</text>
+  <text x="380" y="550" class="code" font-size="13" fill="#444">  real-time environments</text>
+  <text x="380" y="570" class="code" font-size="13" fill="#444">• Researching app-layer security &amp;</text>
+  <text x="380" y="590" class="code" font-size="13" fill="#444">  defensive architecture</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- TECH STACK - drawn as code blocks      -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <text x="60" y="480" class="heading" font-size="18" fill="#1A1A1A">// Tech Stack</text>
+
+  <!-- Langs -->
+  <rect x="60" y="495" width="90" height="22" fill="#3776AB" rx="3" opacity="0.15"/>
+  <text x="68" y="510" class="code" font-size="11" fill="#3776AB" font-weight="bold">Python</text>
+  <rect x="158" y="495" width="55" height="22" fill="#4479A1" rx="3" opacity="0.15"/>
+  <text x="166" y="510" class="code" font-size="11" fill="#4479A1" font-weight="bold">SQL</text>
+  <rect x="221" y="495" width="70" height="22" fill="#092E20" rx="3" opacity="0.15"/>
+  <text x="229" y="510" class="code" font-size="11" fill="#092E20" font-weight="bold">Django</text>
+
+  <rect x="60" y="525" width="75" height="22" fill="#009688" rx="3" opacity="0.15"/>
+  <text x="68" y="540" class="code" font-size="11" fill="#009688" font-weight="bold">FastAPI</text>
+  <rect x="143" y="525" width="70" height="22" fill="#EE4C2C" rx="3" opacity="0.15"/>
+  <text x="151" y="540" class="code" font-size="11" fill="#EE4C2C" font-weight="bold">PyTorch</text>
+  <rect x="221" y="525" width="80" height="22" fill="#5C3EE8" rx="3" opacity="0.15"/>
+  <text x="229" y="540" class="code" font-size="11" fill="#5C3EE8" font-weight="bold">OpenCV</text>
+
+  <rect x="60" y="555" width="70" height="22" fill="#2496ED" rx="3" opacity="0.15"/>
+  <text x="68" y="570" class="code" font-size="11" fill="#2496ED" font-weight="bold">Docker</text>
+  <rect x="138" y="555" width="55" height="22" fill="#326CE5" rx="3" opacity="0.15"/>
+  <text x="146" y="570" class="code" font-size="11" fill="#326CE5" font-weight="bold">K8s</text>
+  <rect x="201" y="555" width="60" height="22" fill="#4169E1" rx="3" opacity="0.15"/>
+  <text x="209" y="570" class="code" font-size="11" fill="#4169E1" font-weight="bold">Postgre</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- FEATURED WORK SECTION                  -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <text x="60" y="640" class="heading" font-size="18" fill="#1A1A1A">// Featured Work</text>
+
+  <!-- Project 1: Magic Chess -->
+  <rect x="60" y="655" width="340" height="75" fill="#FFF" rx="6" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="75" y="678" class="code" font-size="14" fill="#1A1A1A" font-weight="bold">♟️ Magic Chess</text>
+  <text x="75" y="698" class="code" font-size="11" fill="#666">Zero-sensor mechatronic chess. 60 FPS</text>
+  <text x="75" y="714" class="code" font-size="11" fill="#666">vision pipeline. Python, OpenCV, Arduino.</text>
+
+  <!-- Project 2: Les Marinettes -->
+  <rect x="420" y="655" width="360" height="75" fill="#FFF" rx="6" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="435" y="678" class="code" font-size="14" fill="#1A1A1A" font-weight="bold">🏫 Les Marinettes</text>
+  <text x="435" y="698" class="code" font-size="11" fill="#666">Full-stack platform for primary school</text>
+  <text x="435" y="714" class="code" font-size="11" fill="#666">marketing &amp; administration workflows.</text>
+
+  <!-- Project 3: Humble Works -->
+  <rect x="60" y="745" width="340" height="75" fill="#FFF" rx="6" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="75" y="768" class="code" font-size="14" fill="#1A1A1A" font-weight="bold">💼 Humble Works</text>
+  <text x="75" y="788" class="code" font-size="11" fill="#666">Freelance mission platform on secure</text>
+  <text x="75" y="804" class="code" font-size="11" fill="#666">Python / FastAPI architecture.</text>
+
+  <!-- Project 4: Security -->
+  <rect x="420" y="745" width="360" height="75" fill="#FFF" rx="6" stroke="#E8E8E8" stroke-width="1"/>
+  <text x="435" y="768" class="code" font-size="14" fill="#1A1A1A" font-weight="bold">🛡️ Security Research</text>
+  <text x="435" y="788" class="code" font-size="11" fill="#666">Defensive security analysis &amp; vuln</text>
+  <text x="435" y="804" class="code" font-size="11" fill="#666">assessment for enterprise hardening.</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- CONNECT SECTION                        -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <text x="60" y="890" class="heading" font-size="18" fill="#1A1A1A">// Connect</text>
+
+  <rect x="60" y="905" width="140" height="32" fill="#0077B5" rx="4" opacity="0.12"/>
+  <text x="75" y="925" class="code" font-size="12" fill="#0077B5" font-weight="bold">LinkedIn →</text>
+
+  <rect x="212" y="905" width="120" height="32" fill="#D14836" rx="4" opacity="0.12"/>
+  <text x="227" y="925" class="code" font-size="12" fill="#D14836" font-weight="bold">Email →</text>
+
+  <rect x="344" y="905" width="120" height="32" fill="#1A1A1A" rx="4" opacity="0.12"/>
+  <text x="359" y="925" class="code" font-size="12" fill="#1A1A1A" font-weight="bold">GitHub →</text>
+
+  <!-- ═══════════════════════════════════════ -->
+  <!-- FOOTER                                 -->
+  <!-- ═══════════════════════════════════════ -->
+
+  <line x1="60" y1="980" x2="780" y2="980" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="60" y="1010" class="code" font-size="12" fill="#999">/* Thanks for visiting! Explore repos below. 🚀 */</text>
+  <text x="60" y="1035" class="code" font-size="11" fill="#BBB" font-style="italic">"Understanding how systems fail is the first step</text>
+  <text x="60" y="1052" class="code" font-size="11" fill="#BBB" font-style="italic"> toward building ones that don't."</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="1194" width="840" height="6" fill="url(#accentLight)"/>
+</svg>
