@@ -1,5 +1,14 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TATEFARREL/TATEFARREL/main/dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TATEFARREL/TATEFARREL/main/light_mode.svg">
-  <img alt="Harold F.B. Tate — Software Engineer | Backend | AI | Mechatronics" src="https://raw.githubusercontent.com/TATEFARREL/TATEFARREL/main/light_mode.svg">
-</picture>
+# Harold F. B. Tate
+
+Junior Python backend and applied-AI engineer in Gomel, Belarus.
+
+I build APIs and data workflows with FastAPI, Django, PostgreSQL, and Docker. Applied AI work stays behind checks: retrieval, tool calling, and evaluation.
+
+- **Portfolio:** https://tatefarrel.github.io/haroldfbtate.me/
+- **Source:** https://github.com/TATEFARREL/haroldfbtate.me
+- **LinkedIn:** https://www.linkedin.com/in/harold-f-b-tate-22130920a/
+- **Thesis, Magic Chess:** http://elib.gstu.by/handle/220612/51534
+
+French native · English B2 · Russian B1
+
+Open to paid remote work from Belarus, or relocation with visa sponsorship.
